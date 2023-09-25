@@ -1,0 +1,13 @@
+.text {
+  color: green;
+}
+
+.flex {
+  display: flex;
+}
+.loose {
+  color: red;
+}
+.margin {
+  margin-top: 2rem;
+}

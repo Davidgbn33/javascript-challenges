@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge Two</title>
+</head>
+
+<body>
+
+    <form id="form" action="#">
+        <label for="letter">Quel lettre demandes-tu</label>
+        <input type="text" id="letter" name="letter" maxlength="1">
+        <button type="submit">Envoyer</button>
+    </form>
+
+
+    <div class="hangman d-flex flex-column position-relative">
+        <div id="verticalBar"></div>
+        <div id="ground"></div>
+    </div>
+
+    <div>
+        <p id="tiret"></p>
+        <div class="flex">
+            <p>Nombre d'erreur : </p>
+            <p id="error"> </p>
+        </div>
+
+
+        <span id="bravo"> </span> <span id="text"> </span>
+    </div>
+
+    <div id="test"></div>
+
+    <button class="margin" onclick="resetGame()">Recommencer</button>
+
+    <script src="js/challenge2.js"></script>
+</body>
+
+</html>
